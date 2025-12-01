@@ -1,23 +1,193 @@
 [
   {
+    "head": "Wind turbine blades",
+    "relation": "operate in",
+    "tail": "harsh environments"
+  },
+  {
+    "head": "Timely damage detection",
+    "relation": "is essential for",
+    "tail": "preventing failures"
+  },
+  {
+    "head": "Timely damage detection",
+    "relation": "is essential for",
+    "tail": "optimizing maintenance"
+  },
+  {
+    "head": "Drone-based inspection",
+    "relation": "and",
+    "tail": "deep learning"
+  },
+  {
+    "head": "Drone-based inspection",
+    "relation": "and",
+    "tail": "deep learning are promising"
+  },
+  {
+    "head": "Drone-based inspection",
+    "relation": "typically depend on",
+    "tail": "large, labeled datasets"
+  },
+  {
+    "head": "Large, labeled datasets",
+    "relation": "limit",
+    "tail": "ability to detect rare or evolving damage types"
+  },
+  {
+    "head": "We",
+    "relation": "propose",
+    "tail": "a zero-shot-oriented inspection framework"
+  },
+  {
+    "head": "Zero-shot-oriented inspection framework",
+    "relation": "integrates",
+    "tail": "Retrieval-Augmented Generation (RAG)"
+  },
+  {
+    "head": "Zero-shot-oriented inspection framework",
+    "relation": "integrates",
+    "tail": "Vision-Language Models (VLM)"
+  },
+  {
+    "head": "A multimodal knowledge base",
+    "relation": "comprising",
+    "tail": "technical documentation"
+  },
+  {
+    "head": "A multimodal knowledge base",
+    "relation": "comprising",
+    "tail": "representative reference images"
+  },
+  {
+    "head": "A multimodal knowledge base",
+    "relation": "comprising",
+    "tail": "domain-specific guidelines"
+  },
+  {
+    "head": "A hybrid text-image retriever",
+    "relation": "with",
+    "tail": "keyword-aware reranking"
+  },
+  {
+    "head": "Hybrid text-image retriever",
+    "relation": "assembles",
+    "tail": "the most relevant context"
+  },
+  {
+    "head": "Hybrid text-image retriever",
+    "relation": "conditions",
+    "tail": "the VLM at inference"
+  },
+  {
+    "head": "Hybrid text-image retriever",
+    "relation": "injects",
+    "tail": "domain knowledge without task-specific training"
+  },
+  {
+    "head": "We evaluate",
+    "relation": "the framework on",
+    "tail": "30 labeled blade images"
+  },
+  {
+    "head": "30 labeled blade images",
+    "relation": "covers",
+    "tail": "diverse damage categories"
+  },
+  {
+    "head": "Dataset",
+    "relation": "is small due to",
+    "tail": "difficulty of acquiring verified blade imagery"
+  },
+  {
+    "head": "Dataset",
+    "relation": "covers",
+    "tail": "multiple representative defect types"
+  },
+  {
+    "head": "RAG-grounded VLM",
+    "relation": "correctly classified",
+    "tail": "all samples"
+  },
+  {
+    "head": "Same VLM without retrieval",
+    "relation": "performed worse in",
+    "tail": "accuracy"
+  },
+  {
+    "head": "Same VLM without retrieval",
+    "relation": "performed worse in",
+    "tail": "precision"
+  },
+  {
+    "head": "We compare against",
+    "relation": "open-vocabulary baselines",
+    "tail": ""
+  },
+  {
+    "head": "We incorporate",
+    "relation": "uncertainty",
+    "tail": "Clopper-Pearson confidence intervals"
+  },
+  {
+    "head": "Uncertainty Clopper-Pearson confidence intervals",
+    "relation": "account for",
+    "tail": "small-sample setting"
+  },
+  {
+    "head": "Ablation studies",
+    "relation": "indicate",
+    "tail": "key advantage of the framework lies in explainability and generalizability"
+  },
+  {
+    "head": "Retrieved references",
+    "relation": "ground",
+    "tail": "the reasoning process"
+  },
+  {
+    "head": "Retrieved references",
+    "relation": "enable",
+    "tail": "detection of previously unseen defects"
+  },
+  {
+    "head": "Retrieved references",
+    "relation": "leverage",
+    "tail": "domain knowledge rather than relying solely on visual cues"
+  },
+  {
+    "head": "This research",
+    "relation": "contributes",
+    "tail": "a data-efficient solution for industrial inspection"
+  },
+  {
+    "head": "Data-efficient solution for industrial inspection",
+    "relation": "reduces dependence on",
+    "tail": "extensive labeled datasets"
+  },
+  {
     "head": "Non-contact Sensing for AnomalyDetectioninWindTurbineBlades",
-    "relation": "title_of",
-    "tail": "paper"
+    "relation": "title",
+    "tail": "A focus-SVDD with Complex-Valued Auto-Encoder Approach"
   },
   {
     "head": "manufacturing defects",
-    "relation": "can_result_in",
-    "tail": "increases in operation and maintenance costs"
+    "relation": "occur in",
+    "tail": "wind turbine blade"
   },
   {
     "head": "manufacturing defects",
-    "relation": "can_lead_to",
+    "relation": "result in",
+    "tail": "increased operation and maintenance costs"
+  },
+  {
+    "head": "manufacturing defects",
+    "relation": "lead to",
     "tail": "severe and disastrous consequences"
   },
   {
-    "head": "inspection during manufacturing",
-    "relation": "is_crucial_for",
-    "tail": "ensuring consistent fabrication of composite materials"
+    "head": "inspection",
+    "relation": "is crucial for",
+    "tail": "consistent fabrication of composite materials"
   },
   {
     "head": "non-contact sensing techniques",
@@ -30,78 +200,163 @@
     "tail": "full view of complex structures during curing"
   },
   {
-    "head": "FMCW radar",
-    "relation": "is_used_as",
-    "tail": "non-destructive sensing modality"
+    "head": "paper",
+    "relation": "utilizes",
+    "tail": "FMCW radar as a non-destructive sensing modality"
   },
   {
     "head": "anomaly detection pipeline",
-    "relation": "is_developed",
-    "tail": "in this paper"
+    "relation": "offers advantages",
+    "tail": "analytic representation of the Intermediate Frequency signal"
   },
   {
     "head": "anomaly detection pipeline",
-    "relation": "has_advantages",
-    "tail": "using analytic representation of IF signal as feature"
+    "relation": "uses",
+    "tail": "analytic representation of the Intermediate Frequency signal as a feature"
+  },
+  {
+    "head": "analytic representation",
+    "relation": "disentangles",
+    "tail": "material-specific and round-trip delay information"
   },
   {
     "head": "anomaly detection pipeline",
-    "relation": "has_advantages",
-    "tail": "proposing focus-SVDD methodology"
-  },
-  {
-    "head": "anomaly detection pipeline",
-    "relation": "has_advantages",
-    "tail": "employing complex-valued autoencoder"
+    "relation": "proposes",
+    "tail": "focus Support Vector Data Description (focus-SVDD)"
   },
   {
     "head": "focus-SVDD",
-    "relation": "involves",
-    "tail": "defining limit boundaries of dataset after removing healthy data features"
+    "relation": "defines",
+    "tail": "limit boundaries of the dataset after removing healthy data features"
   },
   {
     "head": "focus-SVDD",
-    "relation": "focuses_on",
+    "relation": "focuses on",
     "tail": "attributes of anomalies"
   },
   {
-    "head": "complex-valued autoencoder",
-    "relation": "removes",
-    "tail": "healthy features"
-  },
-  {
-    "head": "Exponential Amplitude Decay (EAD)",
-    "relation": "is_a_new_activation_function",
-    "tail": "that takes advantage of Rayleigh distribution"
+    "head": "proposed method",
+    "relation": "employs",
+    "tail": "complex-valued autoencoder"
   },
   {
     "head": "proposed method",
-    "relation": "demonstrated_effectiveness",
-    "tail": "through application to collected data"
+    "relation": "introduces",
+    "tail": "Exponential Amplitude Decay (EAD)"
+  },
+  {
+    "head": "EAD",
+    "relation": "takes advantage of",
+    "tail": "Rayleigh distribution"
+  },
+  {
+    "head": "EAD",
+    "relation": "characterizes",
+    "tail": "instantaneous amplitude signal"
   },
   {
     "head": "proposed method",
-    "relation": "shows_superior_performance",
-    "tail": "compared to other state-of-the-art unsupervised anomaly detection methods"
+    "relation": "demonstrated effectiveness through",
+    "tail": "application to collected data"
   },
   {
     "head": "proposed method",
-    "relation": "is_expected_to_contribute_to",
+    "relation": "shows superior performance compared to",
+    "tail": "state-of-the-art unsupervised anomaly detection methods"
+  },
+  {
+    "head": "proposed method",
+    "relation": "expected to contribute to",
     "tail": "structural health monitoring"
   },
   {
     "head": "proposed method",
-    "relation": "is_expected_to_contribute_to",
+    "relation": "expected to contribute to",
     "tail": "deep complex-valued data processing"
   },
   {
     "head": "proposed method",
-    "relation": "is_expected_to_contribute_to",
+    "relation": "expected to contribute to",
     "tail": "SVDD application"
   },
   {
+    "head": "Next-generation perception system for automated defect detection in composite laminates via polarized computational imaging",
+    "relation": "addresses",
+    "tail": "automated defect detection"
+  },
+  {
+    "head": "Next-generation perception system for automated defect detection in composite laminates via polarized computational imaging",
+    "relation": "uses",
+    "tail": "polarized computational imaging"
+  },
+  {
+    "head": "polarized computational imaging",
+    "relation": "enables",
+    "tail": "detection of surface defects"
+  },
+  {
+    "head": "polarized computational imaging",
+    "relation": "based on",
+    "tail": "polarimetric images"
+  },
+  {
+    "head": "polarimetric images",
+    "relation": "related to",
+    "tail": "surface micro-geometry"
+  },
+  {
+    "head": "polarized computational imaging",
+    "relation": "detects",
+    "tail": "defects not visible in conventional color images"
+  },
+  {
+    "head": "polarized computational imaging",
+    "relation": "identifies",
+    "tail": "defect types"
+  },
+  {
+    "head": "polarized computational imaging",
+    "relation": "identifies",
+    "tail": "surface characteristics"
+  },
+  {
+    "head": "surface characteristics",
+    "relation": "includes",
+    "tail": "pinholes"
+  },
+  {
+    "head": "surface characteristics",
+    "relation": "includes",
+    "tail": "voids"
+  },
+  {
+    "head": "surface characteristics",
+    "relation": "includes",
+    "tail": "scratches"
+  },
+  {
+    "head": "surface characteristics",
+    "relation": "includes",
+    "tail": "resin flash"
+  },
+  {
+    "head": "polarized computational imaging",
+    "relation": "applies to",
+    "tail": "glass fiber laminates"
+  },
+  {
+    "head": "polarized computational imaging",
+    "relation": "applies to",
+    "tail": "carbon fiber laminates"
+  },
+  {
+    "head": "Barely-Visible Surface CrackDetectionforWindTurbineSustainability",
+    "relation": "focuses on",
+    "tail": "wind turbine sustainability"
+  },
+  {
     "head": "wind energy",
-    "relation": "is a part of",
+    "relation": "is part of",
     "tail": "sustainable development"
   },
   {
@@ -115,24 +370,14 @@
     "tail": "costly and time-consuming task"
   },
   {
-    "head": "maintaining integrity of wind turbines",
-    "relation": "requires",
-    "tail": "repeated inspection and maintenance"
-  },
-  {
     "head": "autonomous drones",
     "relation": "make",
-    "tail": "process more efficient"
+    "tail": "inspection and maintenance more efficient"
   },
   {
     "head": "algorithms for detecting anomalies",
     "relation": "have fallen behind",
-    "tail": "due to dangerous defects"
-  },
-  {
-    "head": "dangerous defects",
-    "relation": "include",
-    "tail": "hairline cracks"
+    "tail": "dangerous defects"
   },
   {
     "head": "hairline cracks",
@@ -142,7 +387,7 @@
   {
     "head": "existing datasets and literature",
     "relation": "lack",
-    "tail": "diversity"
+    "tail": "geographical diversity"
   },
   {
     "head": "existing datasets and literature",
@@ -150,299 +395,44 @@
     "tail": "detecting obvious and visible defects"
   },
   {
-    "head": "existing datasets and literature",
-    "relation": "lack",
-    "tail": "geographical diversity"
-  },
-  {
     "head": "this paper",
     "relation": "introduces",
-    "tail": "novel and diverse dataset"
+    "tail": "novel and diverse dataset of barely-visible hairline cracks"
   },
   {
-    "head": "novel and diverse dataset",
-    "relation": "contains",
-    "tail": "barely-visible hairline cracks"
-  },
-  {
-    "head": "novel and diverse dataset",
+    "head": "dataset",
     "relation": "is collected from",
     "tail": "numerous wind turbine inspections"
   },
   {
     "head": "dataset",
-    "relation": "proves efficacy",
-    "tail": "through end-to-end deployed turbine crack detection pipeline"
+    "relation": "proves",
+    "tail": "efficacy"
   },
   {
-    "head": "end-to-end deployed turbine crack detection pipeline",
+    "head": "pipeline",
     "relation": "includes",
     "tail": "image acquisition stage"
   },
   {
-    "head": "end-to-end deployed turbine crack detection pipeline",
+    "head": "pipeline",
     "relation": "includes",
-    "tail": "use of predictions in providing automated maintenance recommendations"
+    "tail": "use of predictions in automated maintenance recommendations"
   },
   {
-    "head": "end-to-end deployed turbine crack detection pipeline",
+    "head": "pipeline",
     "relation": "aims to",
-    "tail": "extend the life and efficiency of wind turbines"
-  },
-  {
-    "head": "Next-generation perception system",
-    "relation": "for",
-    "tail": "automated defect detection in composite laminates"
-  },
-  {
-    "head": "Finishing operations",
-    "relation": "on",
-    "tail": "large-scale composite components"
-  },
-  {
-    "head": "Finishing operations",
-    "relation": "include",
-    "tail": "trimming and sanding"
-  },
-  {
-    "head": "Finishing operations",
-    "relation": "require",
-    "tail": "multiple workers"
-  },
-  {
-    "head": "Finishing operations",
-    "relation": "require",
-    "tail": "part repositioning"
-  },
-  {
-    "head": "Composites manufacturing industry",
-    "relation": "faces challenge",
-    "tail": "automation of finishing processes"
-  },
-  {
-    "head": "Manufactured part geometry",
-    "relation": "may be",
-    "tail": "inconsistent"
-  },
-  {
-    "head": "Task completion",
-    "relation": "based on",
-    "tail": "human judgment and experience"
-  },
-  {
-    "head": "Mobile collaborative robotic system",
-    "relation": "can perform",
-    "tail": "finishing tasks"
-  },
-  {
-    "head": "Mobile collaborative robotic system",
-    "relation": "improve",
-    "tail": "quality"
-  },
-  {
-    "head": "Mobile collaborative robotic system",
-    "relation": "lower",
-    "tail": "manufacturing costs"
-  },
-  {
-    "head": "Collaborative robotic team",
-    "relation": "must understand",
-    "tail": "the environment"
-  },
-  {
-    "head": "Collaborative robotic team",
-    "relation": "must detect",
-    "tail": "irregularities in manufactured parts"
-  },
-  {
-    "head": "Polarized computational imaging system",
-    "relation": "described",
-    "tail": "in this paper"
-  },
-  {
-    "head": "Polarimetric images",
-    "relation": "are relevant to",
-    "tail": "surface micro-geometry"
-  },
-  {
-    "head": "Polarimetric images",
-    "relation": "can be used to",
-    "tail": "detect surface defects"
-  },
-  {
-    "head": "Polarimetric images",
-    "relation": "are not visible in",
-    "tail": "conventional color images"
-  },
-  {
-    "head": "Proposed vision system",
-    "relation": "identifies",
-    "tail": "defect types"
-  },
-  {
-    "head": "Proposed vision system",
-    "relation": "identifies",
-    "tail": "surface characteristics"
-  },
-  {
-    "head": "Surface characteristics",
-    "relation": "include",
-    "tail": "pinholes"
-  },
-  {
-    "head": "Surface characteristics",
-    "relation": "include",
-    "tail": "voids"
-  },
-  {
-    "head": "Surface characteristics",
-    "relation": "include",
-    "tail": "scratches"
-  },
-  {
-    "head": "Surface characteristics",
-    "relation": "include",
-    "tail": "resin flash"
-  },
-  {
-    "head": "Defect types",
-    "relation": "for",
-    "tail": "different glass fiber laminates"
-  },
-  {
-    "head": "Defect types",
-    "relation": "for",
-    "tail": "carbon fiber laminates"
-  },
-  {
-    "head": "Identification of SurfaceDefectson Solar PV Panels andWindTurbineBladesusing Attention based Deep Learning Model",
-    "relation": "addresses",
-    "tail": "surface defects on renewable energy assets"
-  },
-  {
-    "head": "surface defects",
-    "relation": "affect",
-    "tail": "power generation"
-  },
-  {
-    "head": "surface defects",
-    "relation": "affect",
-    "tail": "asset life"
-  },
-  {
-    "head": "surface defects",
-    "relation": "affect",
-    "tail": "performance"
-  },
-  {
-    "head": "surface defects",
-    "relation": "affect",
-    "tail": "efficiency"
-  },
-  {
-    "head": "detection of surface defects",
-    "relation": "is crucial for",
-    "tail": "maintaining performance"
-  },
-  {
-    "head": "detection of surface defects",
-    "relation": "is crucial for",
-    "tail": "maintaining efficiency"
-  },
-  {
-    "head": "detection of surface defects",
-    "relation": "is crucial for",
-    "tail": "reliable operation"
-  },
-  {
-    "head": "detection of surface defects",
-    "relation": "is crucial for",
-    "tail": "renewable power plants"
-  },
-  {
-    "head": "vision transformer (vit)",
-    "relation": "is a",
-    "tail": "attention-based deep learning model"
-  },
-  {
-    "head": "vision transformer (vit)",
-    "relation": "is used for",
-    "tail": "classification of surface defects"
-  },
-  {
-    "head": "vision transformer (vit)",
-    "relation": "outperforms",
-    "tail": "MobileNet"
-  },
-  {
-    "head": "vision transformer (vit)",
-    "relation": "outperforms",
-    "tail": "VGG16"
-  },
-  {
-    "head": "vision transformer (vit)",
-    "relation": "outperforms",
-    "tail": "Xception"
-  },
-  {
-    "head": "vision transformer (vit)",
-    "relation": "outperforms",
-    "tail": "EfficientNetB7"
-  },
-  {
-    "head": "vision transformer (vit)",
-    "relation": "outperforms",
-    "tail": "ResNet50"
-  },
-  {
-    "head": "vision transformer (vit)",
-    "relation": "achieves",
-    "tail": "high accuracy scores above 97%"
-  },
-  {
-    "head": "high accuracy scores above 97%",
-    "relation": "are achieved for",
-    "tail": "solar plant assets"
-  },
-  {
-    "head": "high accuracy scores above 97%",
-    "relation": "are achieved for",
-    "tail": "wind plant assets"
-  },
-  {
-    "head": "proposed framework",
-    "relation": "aims to achieve",
-    "tail": "economical surface monitoring system"
-  },
-  {
-    "head": "high-resolution images",
-    "relation": "are captured",
-    "tail": "regularly"
-  },
-  {
-    "head": "high-resolution images",
-    "relation": "are inspected",
-    "tail": "to identify surface or structural damages"
-  },
-  {
-    "head": "surface or structural damages",
-    "relation": "are identified on",
-    "tail": "solar panels"
-  },
-  {
-    "head": "surface or structural damages",
-    "relation": "are identified on",
-    "tail": "wind turbine blades"
-  },
-  {
-    "head": "global generation of renewable energy",
-    "relation": "has rapidly increased",
-    "tail": "due to installation of large-scale renewable energy power plants"
+    "tail": "extend life and efficiency of wind turbines"
   },
   {
     "head": "A Novel Approach for Defect Detection of Wind Turbine Blade Using Virtual Reality and Deep Learning",
-    "relation": "addresses",
-    "tail": "defect detection of wind turbine blades"
+    "relation": "uses",
+    "tail": "Virtual Reality"
+  },
+  {
+    "head": "A Novel Approach for Defect Detection of Wind Turbine Blade Using Virtual Reality and Deep Learning",
+    "relation": "uses",
+    "tail": "Deep Learning"
   },
   {
     "head": "Wind turbines",
@@ -470,29 +460,34 @@
     "tail": "strikes by flying objects"
   },
   {
-    "head": "defects in turbine blades",
+    "head": "Wind turbines",
     "relation": "may cause",
-    "tail": "catastrophic failure"
+    "tail": "defects in turbine blades"
   },
   {
     "head": "inspection",
-    "relation": "is challenging due to",
+    "relation": "requires",
+    "tail": "periodical inspection"
+  },
+  {
+    "head": "inspection",
+    "relation": "challenging due to",
     "tail": "remote location"
   },
   {
     "head": "inspection",
-    "relation": "is challenging due to",
+    "relation": "challenging due to",
     "tail": "inconvenient reachability"
   },
   {
     "head": "Researchers",
     "relation": "used",
-    "tail": "images with cropped defects from the wind turbine"
+    "tail": "images with cropped defects"
   },
   {
     "head": "Researchers",
     "relation": "neglected",
-    "tail": "possible background biases"
+    "tail": "background biases"
   },
   {
     "head": "background biases",
@@ -505,273 +500,98 @@
     "tail": "autonomous defect detection"
   },
   {
-    "head": "this paper",
-    "relation": "proposes",
-    "tail": "a two-step deep-learning methodology"
-  },
-  {
-    "head": "two-step deep-learning methodology",
-    "relation": "includes",
-    "tail": "synthesizing near-reality images"
-  },
-  {
-    "head": "two-step deep-learning methodology",
-    "relation": "includes",
-    "tail": "training a customized U-Net architecture"
-  },
-  {
-    "head": "virtual models of wind turbines",
-    "relation": "are used to",
-    "tail": "synthesize near-reality images"
-  },
-  {
-    "head": "Unity perception package",
-    "relation": "is used to",
-    "tail": "generate wind turbine blade defects images"
-  },
-  {
-    "head": "Unity perception package",
-    "relation": "generates",
-    "tail": "images with variations in background"
-  },
-  {
-    "head": "Unity perception package",
-    "relation": "generates",
-    "tail": "images with randomness"
-  },
-  {
-    "head": "Unity perception package",
-    "relation": "generates",
-    "tail": "images with variations in camera angle"
-  },
-  {
-    "head": "Unity perception package",
-    "relation": "generates",
-    "tail": "images with variations in light effects"
-  },
-  {
-    "head": "customized U-Net architecture",
-    "relation": "is trained to",
-    "tail": "classify and segment defects"
-  },
-  {
-    "head": "U-Net architecture",
-    "relation": "has been tested",
-    "tail": "with 5-fold validation datasets"
-  },
-  {
-    "head": "proposed methodology",
+    "head": "methodology",
     "relation": "provides",
     "tail": "reasonable defect detection accuracy"
   },
   {
-    "head": "proposed methodology",
-    "relation": "is suitable for",
+    "head": "methodology",
+    "relation": "suitable for",
     "tail": "autonomous inspection"
   },
   {
-    "head": "proposed methodology",
-    "relation": "is suitable for",
+    "head": "methodology",
+    "relation": "suitable for",
     "tail": "remote inspection"
   },
   {
-    "head": "autonomous inspection",
-    "relation": "can be performed through",
-    "tail": "aerial vehicles"
+    "head": "methodology",
+    "relation": "uses",
+    "tail": "two-step deep-learning methodology"
   },
   {
-    "head": "remote inspection",
-    "relation": "can be performed through",
-    "tail": "aerial vehicles"
+    "head": "first step",
+    "relation": "develops",
+    "tail": "virtual models of wind turbines"
   },
   {
-    "head": "Thermal and RGB Images",
-    "relation": "improve",
-    "tail": "defect detection"
+    "head": "virtual models of wind turbines",
+    "relation": "synthesizes",
+    "tail": "near-reality images"
   },
   {
-    "head": "UAVs",
-    "relation": "capture",
-    "tail": "high-resolution imagery"
+    "head": "near-reality images",
+    "relation": "include",
+    "tail": "cracks"
   },
   {
-    "head": "multispectral image composition",
-    "relation": "combines",
-    "tail": "thermal and RGB imagery"
+    "head": "near-reality images",
+    "relation": "include",
+    "tail": "leading edge erosion"
   },
   {
-    "head": "thermal and RGB imagery",
-    "relation": "enhance",
-    "tail": "defect detection on WTBs"
+    "head": "near-reality images",
+    "relation": "include",
+    "tail": "bending"
   },
   {
-    "head": "YOLOv8 model",
-    "relation": "accuracy increased from",
-    "tail": "91% to 95%"
+    "head": "near-reality images",
+    "relation": "include",
+    "tail": "light striking damage"
   },
   {
-    "head": "YOLOv8 model",
-    "relation": "precision increased from",
-    "tail": "89% to 94%"
+    "head": "Unity perception package",
+    "relation": "used to generate",
+    "tail": "wind turbine blade defects images"
   },
   {
-    "head": "YOLOv8 model",
-    "relation": "recall increased from",
-    "tail": "85% to 92%"
+    "head": "Unity perception package",
+    "relation": "generates",
+    "tail": "variations in background"
   },
   {
-    "head": "YOLOv8 model",
-    "relation": "F1-score increased from",
-    "tail": "87% to 93%"
+    "head": "Unity perception package",
+    "relation": "generates",
+    "tail": "randomness"
   },
   {
-    "head": "false positives",
-    "relation": "decreased from",
-    "tail": "6 to 3"
+    "head": "Unity perception package",
+    "relation": "generates",
+    "tail": "camera angle"
   },
   {
-    "head": "missed defects",
-    "relation": "reduced from",
-    "tail": "5 to 2"
+    "head": "Unity perception package",
+    "relation": "generates",
+    "tail": "light effects"
   },
   {
-    "head": "integration of thermal and RGB imagery",
-    "relation": "contribute to",
-    "tail": "improved maintenance and reliability"
+    "head": "second step",
+    "relation": "trains",
+    "tail": "customized U-Net architecture"
   },
   {
-    "head": "Wind turbine blades",
-    "relation": "operate in",
-    "tail": "harsh environments"
+    "head": "customized U-Net architecture",
+    "relation": "classifies",
+    "tail": "defect in turbine blades"
   },
   {
-    "head": "Timely damage detection",
-    "relation": "is essential for",
-    "tail": "preventing failures"
+    "head": "customized U-Net architecture",
+    "relation": "segments",
+    "tail": "defect in turbine blades"
   },
   {
-    "head": "Timely damage detection",
-    "relation": "is essential for",
-    "tail": "optimizing maintenance"
-  },
-  {
-    "head": "Drone-based inspection",
-    "relation": "and",
-    "tail": "deep learning"
-  },
-  {
-    "head": "Drone-based inspection",
-    "relation": "are promising",
-    "tail": "but typically depend on large, labeled datasets"
-  },
-  {
-    "head": "Large, labeled datasets",
-    "relation": "limit",
-    "tail": "their ability to detect rare or evolving damage types"
-  },
-  {
-    "head": "We propose",
-    "relation": "a zero-shot-oriented inspection framework",
-    "tail": "that integrates Retrieval-Augmented Generation (RAG) with Vision-Language Models (VLM)"
-  },
-  {
-    "head": "A multimodal knowledge base",
-    "relation": "is constructed",
-    "tail": "comprising technical documentation"
-  },
-  {
-    "head": "A multimodal knowledge base",
-    "relation": "is constructed",
-    "tail": "representative reference images"
-  },
-  {
-    "head": "A multimodal knowledge base",
-    "relation": "is constructed",
-    "tail": "domain-specific guidelines"
-  },
-  {
-    "head": "A hybrid text-image retriever",
-    "relation": "with keyword-aware reranking",
-    "tail": "assembles the most relevant context"
-  },
-  {
-    "head": "A hybrid text-image retriever",
-    "relation": "with keyword-aware reranking",
-    "tail": "to condition the VLM at inference"
-  },
-  {
-    "head": "The framework",
-    "relation": "injects domain knowledge",
-    "tail": "without task-specific training"
-  },
-  {
-    "head": "We evaluate the framework",
-    "relation": "on",
-    "tail": "30 labeled blade images"
-  },
-  {
-    "head": "30 labeled blade images",
-    "relation": "cover",
-    "tail": "diverse damage categories"
-  },
-  {
-    "head": "The dataset",
-    "relation": "is small",
-    "tail": "due to the difficulty of acquiring verified blade imagery"
-  },
-  {
-    "head": "The dataset",
-    "relation": "covers",
-    "tail": "multiple representative defect types"
-  },
-  {
-    "head": "The RAG-grounded VLM",
-    "relation": "correctly classified",
-    "tail": "all samples"
-  },
-  {
-    "head": "The same VLM without retrieval",
-    "relation": "performed worse",
-    "tail": "in both accuracy and precision"
-  },
-  {
-    "head": "We compare against",
-    "relation": "open-vocabulary baselines",
-    "tail": "and incorporate uncertainty Clopper-Pearson confidence intervals"
-  },
-  {
-    "head": "Uncertainty Clopper-Pearson confidence intervals",
-    "relation": "are used to account for",
-    "tail": "the small-sample setting"
-  },
-  {
-    "head": "Ablation studies",
-    "relation": "indicate that",
-    "tail": "the key advantage of the framework lies in explainability and generalizability"
-  },
-  {
-    "head": "Retrieved references",
-    "relation": "ground the reasoning process",
-    "tail": "and enable the detection of previously unseen defects"
-  },
-  {
-    "head": "Retrieved references",
-    "relation": "enable the detection of previously unseen defects",
-    "tail": "by leveraging domain knowledge"
-  },
-  {
-    "head": "Retrieved references",
-    "relation": "enable the detection of previously unseen defects",
-    "tail": "rather than relying solely on visual cues"
-  },
-  {
-    "head": "This research",
-    "relation": "contributes",
-    "tail": "a data-efficient solution for industrial inspection"
-  },
-  {
-    "head": "This research",
-    "relation": "reduces dependence on",
-    "tail": "extensive labeled datasets"
+    "head": "U-Net architecture",
+    "relation": "tested",
+    "tail": "with 5-fold validation datasets"
   }
 ]
